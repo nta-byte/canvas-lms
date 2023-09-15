@@ -7,8 +7,6 @@ services:
     links:
       - postgres
       - redis
-    ports:
-      - "8880:80"
     environment:
       POSTGRES_PASSWORD: sekret
 
